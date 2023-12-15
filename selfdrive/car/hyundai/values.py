@@ -994,9 +994,6 @@ FW_VERSIONS = {
       b'\xf1\x00YG__ SCC F_CUP   1.01 1.02 96400-F6000     \xf1\xa01.02',
       b'\xf1\x00YG__ SCC F_CUP   1.00 1.01 99110-F6000     \xf1\xa01.01',
     ],
-    (Ecu.abs, 0x7d1, None): [
-      b'\xf1\x8758920-F6230\xf1\000NC MGH \t 101\031\t\005 58920-F6230\xf1\xa01.01',
-    ],
     (Ecu.eps, 0x7d4, None): [
       b'\xf1\x00YG  MDPS C 1.00 1.00 99800-F6563\x00 4YGAC100',
       b'\xf1\x00YG  MDPS C 1.00 1.00 E0000-F6563\x00 4YGSC100',

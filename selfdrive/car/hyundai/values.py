@@ -985,8 +985,9 @@ FW_VERSIONS = {
   },
   CAR.KIA_CADENZA: {
     (Ecu.fwdCamera, 0x7c4, None): [
-      b'\xf1\x00YG MFC  1.00 1.01 95740-F6100 170717',
-      b'\xf1\x00YG MFC USA 1.00 1.03 95740-F6200 190605',
+      b'\xf1\x00YG  MFC  LKAS KOR 1.00 1.01 95740-F6100 170717',
+      b'\xf1\x00YG  MFC  LKAS USA 1.00 1.03 95740-F6200 230121',
+      b'\xf1\x00YG  MFC  LKAS USA 1.00 1.03 95740-F6200 190605',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00YG__ SCC F_CUP   1.01 1.01 96400-F6000     \xf1\xa01.01',
@@ -994,7 +995,7 @@ FW_VERSIONS = {
       b'\xf1\x00YG__ SCC F_CUP   1.00 1.01 99110-F6000     \xf1\xa01.01',
     ],
     (Ecu.abs, 0x7d1, None): [
-      b'\xf1\x8758920-F6230\xf1\000NC MGH \t 101\031\t\005 58920F6230\xf1\xa01.01',
+      b'\xf1\x8758920-F6230\xf1\000NC MGH \t 101\031\t\005 58920-F6230\xf1\xa01.01',
     ],
     (Ecu.eps, 0x7d4, None): [
       b'\xf1\x00YG  MDPS C 1.00 1.00 99800-F6563\x00 4YGAC100',
@@ -1002,6 +1003,12 @@ FW_VERSIONS = {
       b'\xf1\x00YG  MDPS C 1.01 99500-F6563\x00 4YGDC103',
       b'\xf1\x00YG  MDPS C 1.00 1.01 56310-F6350\x00 4YG7C101',
       b'\xf1\x00YG  MDPS C 1.00 1.01 99600-G8563\x00 41G8C101',
+    ],
+    (Ecu.transmission, 0x7e1, None): [
+      b'\xf1\x00bcshcm49  A0572\x00\x00\x00\x00\x00\x00TYG0G33US4\xa4 |.',
+    ],
+    (Ecu.engine, 0x7e0, None): [
+      b'\xf1\x8164096051\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
   },
   CAR.KIA_NIRO_HEV: {
